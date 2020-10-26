@@ -73,7 +73,7 @@ Previous to the modelling there was some data analysis:
 
 The target label is skewed and have high curtosis (have a long tail and is peaked).
 
-It was transform by logarithm to have a more normal-like distribution which helps the algorithm:
+It was transformed by logarithms to have a more normal-like distribution which helps the regression model:
 ![alt text](https://github.com/Sampayob/-NYC_taxi_and_ACS_data/blob/main/plots/avg_pickups_dist_log.png)
 
 - The **Gradient Boosting algorithm** was chosen to perform the **estimation of the average number of pickups per block group. Hyperparameter tunning with GridSearchCV and K-Fold cross validation were applied** to find the best hyperparameters and also validate the model.
