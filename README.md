@@ -31,6 +31,8 @@ _***Note: the jupyter notebook may need to be downloaded** due to I had previsua
 ## Data exploration
 
 - **NYC taxis data**:
+  ![alt text](https://github.com/Sampayob/-NYC_taxi_and_ACS_data/blob/main/plots/pickups_dropoffs_locations.png)
+  
   - The pickups and dropoffs latitude and longitude data was plotted to geographically visualize it. The NYC shape obtained confirmed the geodata seems good.
   - The pickup and dropoffs hours pointed that most of the pick ups are between 6-8 PM and off-pikcups hours around 5 PM and in July there are less trips.
   - Credit cash payment is overall prefered.
