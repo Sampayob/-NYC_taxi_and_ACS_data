@@ -77,7 +77,7 @@ It was transformed by logarithms to have a more normal-like distribution which h
 ![alt text](https://github.com/Sampayob/-NYC_taxi_and_ACS_data/blob/main/plots/avg_pickups_dist_log.png)
 
 - The **Gradient Boosting algorithm** was chosen to perform the **estimation of the average number of pickups per block group.** Gradient boosting performs well generally. A resume of this algorithm is:
-  - Optimizes the mean squared error (MSE)/L2 loss/cost
+  - Optimizes the mean squared error (MSE)/L2 loss/cost.
   - GBM is a composite model that combines the efforts of multiple weak models to create a strong model, and each additional weak model reduces the mean squared error (MSE) of the overall model.
   
 - The **RMSE was 0.000888** which is a little high. Due to this model has not been trained with all the data it is clear the model can be improved feeding it with more data and also testing other algorithms and with hyperparameter tuning.
