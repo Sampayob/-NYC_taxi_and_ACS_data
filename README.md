@@ -8,9 +8,9 @@ The **main objetives** where:
 - **Retrieve the average number of pickups by block group.**
 - **Train a model** based on the previous objetive.
 
-The **following information is a resume of the [jupyter notebook](https://github.com/Sampayob/-NYC_taxi_and_ACS_data/blob/main/NYCtaxi_ACS_dataExploration_and_modelling.ipynb)** which contains all the process, code and plots an the same explanations:
+The **following information is a resume of the [jupyter notebook](https://github.com/Sampayob/-NYC_taxi_and_ACS_data/blob/main/NYCtaxi_ACS_dataExploration_and_modelling.ipynb)** which contains all the process, code and plots an the same explanations.
 
-_*Note: **the jupyter notebook may need to be downloaded** due to I had previsualization errors._
+_***Note: the jupyter notebook may need to be downloaded** due to I had previsualization errors._
 
 ## Data
 
