@@ -70,6 +70,7 @@ After perfom a spatial join to merge the NYC taxi pickups coordiantes and the AC
 Previous to the modelling there was some data analysis:
 
 ![alt text](https://github.com/Sampayob/-NYC_taxi_and_ACS_data/blob/main/plots/avg_pickups_dist.png)
+
 The target label is skewed and have high curtosis (have a long tail and is peaked)
 
 It was transform by logarithm to have a more normal-like distribution which helps the algorithm:
