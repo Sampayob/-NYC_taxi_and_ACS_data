@@ -68,10 +68,13 @@ After perfom a spatial join to merge the NYC taxi pickups coordiantes and the AC
 
 ## Modelling
 Previous to the modelling there was some data analysis:
+
 ![alt text](https://github.com/Sampayob/-NYC_taxi_and_ACS_data/blob/main/plots/avg_pickups_dist.png)
 The target label is skewed and have high curtosis (have a long tail and is peaked)
+
 It was transform by logarithm to have a more normal-like distribution which helps the algorithm:
 ![alt text](https://github.com/Sampayob/-NYC_taxi_and_ACS_data/blob/main/plots/avg_pickups_dist_log.png)
+
 - The **Gradient Boosting algorithm** was chosen to perform the **estimation of the average number of pickups per block group. Hyperparameter tunning with GridSearchCV and K-Fold cross validation were applied** to find the best hyperparameters and also validate the model.
 - The **RMSE was 0.000888** which is a little high. Due to this model has not been trained with all the data it is clear the model can be improved feeding it with more data and also testing other algorithms and with hyperparameter tuning.
 
