@@ -33,30 +33,26 @@ _***Note: the jupyter notebook may need to be downloaded** due to I had previsua
 - **NYC taxis data**:
 
 ![alt text](https://github.com/Sampayob/-NYC_taxi_and_ACS_data/blob/main/plots/pickups_dropoffs_locations.png)
-  The pickups and dropoffs latitude and longitude data was plotted to geographically visualize it. The NYC shape obtained confirmed the geodata seems good.
+The pickups and dropoffs latitude and longitude data was plotted to geographically visualize it. The NYC shape obtained confirmed the geodata seems good.
   
 ![alt text](https://github.com/Sampayob/-NYC_taxi_and_ACS_data/blob/main/plots/pickups_dropoffs_hours.png)
 ![alt text](https://github.com/Sampayob/-NYC_taxi_and_ACS_data/blob/main/plots/pickups_dropoffs_months.png)
-  
-  The pickup and dropoffs hours pointed that most of the pick ups are between 6-8 PM and off-pikcups hours around 5 PM and in July there are less trips.
-![alt text](https://github.com/Sampayob/-NYC_taxi_and_ACS_data/blob/main/plots/payment_type.png)
-  
-  Credit cash payment is overall prefered (1).
-![alt text](https://github.com/Sampayob/-NYC_taxi_and_ACS_data/blob/main/plots/Ratecodeid.png)
-  
-  Almost every trip have a standard rate, with a minority with a JFK airport rate or negociated rates (1).
+The pickup and dropoffs hours pointed that most of the pick ups are between 6-8 PM and off-pikcups hours around 5 PM and in July there are less trips.
+
+![alt text](https://github.com/Sampayob/-NYC_taxi_and_ACS_data/blob/main/plots/payment_type.png) 
+Credit cash payment is overall prefered (1).
+
+![alt text](https://github.com/Sampayob/-NYC_taxi_and_ACS_data/blob/main/plots/Ratecodeid.png) 
+Almost every trip have a standard rate, with a minority with a JFK airport rate or negociated rates (1).
   
 ![alt text](https://github.com/Sampayob/-NYC_taxi_and_ACS_data/blob/main/plots/fare_amount.png)
-  
-  The fare amounts (per meter) are grouped in a <2000$ range although it seems to high.
+The fare amounts (per meter) are grouped in a <2000$ range although it seems to high.
   
 ![alt text](https://github.com/Sampayob/-NYC_taxi_and_ACS_data/blob/main/plots/trip_distance.png)
-  
-  Most of the trips are short or mid-distance with a few really long ones.
+Most of the trips are short or mid-distance with a few really long ones.
   
 ![alt text](https://github.com/Sampayob/-NYC_taxi_and_ACS_data/blob/main/plots/passenger_count.png)
-  
-  The duration of a trip is similar with 1, 2, 3 or 4 passengers. This duration increases logically when the cab is previously booked in a certain location.
+The duration of a trip is similar with 1, 2, 3 or 4 passengers. This duration increases logically when the cab is previously booked in a certain location.
   
 - **ACS and GeoJSON data**:
 ![alt text](https://github.com/Sampayob/-NYC_taxi_and_ACS_data/blob/main/plots/blockgroups_commute.png)
