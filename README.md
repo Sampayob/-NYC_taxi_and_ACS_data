@@ -82,6 +82,6 @@ It was transformed by logarithms to have a more normal-like distribution which h
 ## Conclusions
 - Work with large files is complicated and time-costly if you have an average computer (and some times impossible if you ran out of RAM memory). It is clear cloud computing is needed to agilize and empower all big data process.All process on the cloud like accessing data, transformations and model training tend to be more efficient.
 - Load data in chunks is essential sometimes to perform efficient manipullation.
-- The ETL process could be scaled for larger data with pipelines, pretrained objects (scalers, encoders...), etc., automatizing the extraction, transformation, data cleaning, etc. Also the modelling could be done with distributed tools to accelerate it (Spark, Amazon Sagemaker...)
+- The ETL process could be scaled for larger data with pipelines, pretrained objects (scalers, encoders...), etc., automatizing the extraction, transformation, data cleaning, etc. Also the modelling could be done with distributed tools to accelerate it (Spark, Amazon Sagemaker...).
 - Future improvements for the model are: more accurate feature transformations, test more estimators to find which one suits best, test more hyperparameters, try K-Fold and Leave-one-out cross validation...
 - In modelling it is important to choose the correct algorithm but also to get the best of it with hyperparameter tunning and adecuating the variables to enpower it by doing a correct data analysis and feature engineering.
