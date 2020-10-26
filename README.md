@@ -64,7 +64,7 @@ _***Note: the jupyter notebook may need to be downloaded** due to I had previsua
 
 _***Note**: **due to constant RAM memory errors when performing a spatial join (because the large NYC taxis dataset), a little sample of the NYC taxi dataset (5000 entries per month) was made to continue the process from this point.** Although the results are not crearly representative of all the entire dataset, **this aproach allows to at least continue the data analysis process and modelling.**_
 
-After perfom a spatial join to merge the NYC taxi pickups coordiantes and the ACS block groups polygons to optain the number of pickups contained in each block group. The average number of pickups by block group was **number**.
+A spatial join was done to merge the NYC taxi pickups coordinates and the ACS block groups polygons to obtain the [number of pickups contained in each block group](https://github.com/Sampayob/-NYC_taxi_and_ACS_data/blob/main/avg_pickups_blockgroup.csv). 
 
 ## Modelling
 Previous to the modelling there was some data analysis:
