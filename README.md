@@ -2,7 +2,7 @@
 
 This project aimed to **explore a large dataset such the NYC taxis public data** (Jan, Apr and July months, 2015) **and the American Community Survey (ACS demographic and socio-economic data (by block group)** to **get insight into the transportation sector in New York.**
 
-The **main objetives** where:
+The **main objetives** were:
 
 - Extract, process and explore the data and **get insights** from it.
 - **Retrieve the average number of pickups by block group.**
